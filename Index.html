@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página de Música</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -32,7 +33,7 @@
 </nav>
 
 <section id="inicio" class="container mt-4">
-    <h2>Inicio</h2>
+    <h2 class="section-title">Inicio</h2>
     <div class="row">
         <div class="col-md-4">
             <h3>Canciones</h3>
@@ -53,40 +54,49 @@
 </section>
 
 <section id="canciones" class="container mt-4">
-    <h2>Canciones</h2>
+    <h2 class="section-title">Canciones</h2>
     <div class="row">
         <div class="col-md-4">
             <h3>Top Canciones más Escuchadas</h3>
             <img src="Quevedo.jpg" alt="Top Canciones" class="img-fluid">
             <p>Aquí encontrarás las canciones más populares y escuchadas en todo el mundo. ¡Disfruta de los éxitos actuales!</p>
+            <a href="Playlist.html" class="btn btn-primary">Ir a playlist</a>
         </div>
         <div class="col-md-4">
             <h3>Clásicas</h3>
             <img src="BeeGees.jpg" alt="Canciones Clásicas" class="img-fluid">
             <p>Revive los clásicos atemporales de la música que han dejado una marca imborrable en la historia.</p>
+            <button class="btn btn-primary">Ir a playlist</button>
         </div>
         <div class="col-md-4">
             <h3>Reggaetón Antiguo</h3>
             <img src="WyY.jpg" alt="Reggaetón Antiguo" class="img-fluid">
             <p>Sumérgete en la nostalgia con los grandes éxitos del reggaetón de antaño que siguen haciendo vibrar a todos.</p>
+            <button class="btn btn-primary">Ir a playlist</button>
         </div>
+    </div>
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Buscar canciones...">
+        <button class="search-button">Buscar</button>
     </div>
     <div class="row mt-4">
         <div class="col-md-4">
             <h3>Reggaetón Nuevo</h3>
             <img src="Towers.jpg" alt="Reggaetón Nuevo" class="img-fluid">
             <p>Explora las nuevas tendencias del reggaetón con las canciones más recientes de los artistas más destacados.</p>
+            <button class="btn btn-primary">Ir a playlist</button>
         </div>
         <div class="col-md-4">
             <h3>Cumbia</h3>
             <img src="Angeles.jpg" alt="Cumbia" class="img-fluid">
             <p>Sumérgete en el ritmo contagioso de la cumbia, un género que ha conquistado corazones en todo el mundo.</p>
+            <button class="btn btn-primary">Ir a playlist</button>
         </div>
     </div>
 </section>
 
 <section id="artistas" class="container mt-4">
-    <h2>Artistas</h2>
+    <h2 class="section-title">Artistas</h2>
     <div class="row">
         <div class="col-md-4">
             <h3>Artistas más Votados</h3>
@@ -107,25 +117,34 @@
 </section>
 
 <section id="noticias" class="container mt-4">
-    <h2>Noticias</h2>
+    <h2 class="section-title">Noticias</h2>
     <div class="row">
         <div class="col-md-4">
             <h3>Eventos</h3>
             <img src="Eventos.jpg" alt="Eventos" class="img-fluid">
             <p>Entérate de los emocionantes eventos musicales que se avecinan, desde festivales hasta lanzamientos especiales.</p>
+            <button class="btn btn-primary read-more-button">Ver más...</button>
         </div>
         <div class="col-md-4">
             <h3>Información</h3>
             <img src="Informacion.jpg" alt="Información" class="img-fluid">
             <p>Obtén información valiosa sobre la industria musical, consejos para artistas emergentes y más.</p>
+            <button class="btn btn-primary read-more-button">Ver más...</button>
         </div>
         <div class="col-md-4">
             <h3>Rumores</h3>
             <img src="Rumores.jpg" alt="Rumores" class="img-fluid">
             <p>Descubre los rumores más intrigantes y las especulaciones sobre tus artistas favoritos en el mundo de la música.</p>
+            <button class="btn btn-primary read-more-button">Ver más...</button>
         </div>
     </div>
 </section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Mi Página de Música. Todos los derechos reservados.</p>
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
