@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Playlist - Mi Música</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Agregamos una clase para establecer el tamaño de las imágenes */
+        img {
+            max-width: 100%; /* Ajusta el ancho al 100% del contenedor */
+            height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Mi Música</a>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#canciones">Canciones</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#artistas">Artistas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#noticias">Noticias</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 search-input" type="search" placeholder="Buscar canciones..." aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0 search-button" type="submit">Buscar</button>
+    </form>
+</nav>
+
+<section id="canciones" class="container mt-4">
+    <h2 class="section-title">Tu Playlist</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Canción 1</h3>
+            <img src="Artistas/DonOmar.jpg" alt="Imagen de Canción 1" class="img-fluid">
+            <p>Artista: Bee Gees</p>
+            <p>Álbum: Álbum 1</p>
+            <p>Año: 1975</p>
+            <p>Género: Clasica</p>
+            <button class="btn btn-primary">Reproducir</button>
+        </div>
+        <div class="col-md-4">
+            <h3>Canción 2</h3>
+            <img src="Artistas/Yankee.jpg" alt="Imagen de Canción 1" class="img-fluid">
+            <p>Artista: Beatles</p>
+            <p>Álbum: Álbum 2</p>
+            <p>Año: 2015</p>
+            <p>Género: clasica</p>
+            <button class="btn btn-primary">Reproducir</button>
+        </div>
+        <div class="col-md-4">
+            <h3>Canción 3</h3>
+            <img src="Artistas/Yandel.jpg" alt="Imagen de Canción 1" class="img-fluid">
+            <p>Artista: Yandel</p>
+            <p>Álbum: Álbum 3</p>
+            <p>Año: 2018</p>
+            <p>Género: Clasicas</p>
+            <button class="btn btn-primary">Reproducir</button>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <p>&copy; 2023 Mi Página de Música. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
